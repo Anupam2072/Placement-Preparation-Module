@@ -1,7 +1,7 @@
 #include <bits/stdc++.h> 
 
 vector<int> maximumMeetings(vector<int> &start, vector<int> &end) {
-    vector<int>ans;
+    vector<int> ans;
     vector<vector<int>>v(start.size());
     for(int i=0;i<v.size();i++) {
         v[i]={end[i],i+1,start[i]};
